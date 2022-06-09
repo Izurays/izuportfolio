@@ -1,0 +1,32 @@
+{
+  "name": "izuport",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izurays/izuport.git"
+  },
+  "keywords": [
+    "async"
+  ],
+  "author": "Onyeocha Izunna Chideb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Izurays/izuport/issues"
+  },
+  "homepage": "https://github.com/Izurays/izuport#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "ejs": "^3.1.8",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16"
+  }
+}

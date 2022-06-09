@@ -1,0 +1,9 @@
+{
+    "izurays":{
+        "dbConfig":{
+            "host":"localhost",
+            "port":"3000",
+            "dbName":"mongodb+srv://izurays:izurays@izuyelp.yz5yf.mongodb.net/?retryWrites=true&w=majority"
+        }
+    }
+}

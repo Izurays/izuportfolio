@@ -1,0 +1,92 @@
+#img {
+    opacity: 0.5;
+    filter: drop-shadow(2px 4px 100px #575758);
+    max-width: 100%;
+    width:100%;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+.pictext {
+    margin: 3%;
+    position: absolute;
+    
+
+}
+.first-text {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    color: whitesmoke;
+}
+.pictext2{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: bisque;
+    max-width: 30%;
+    width:30%;
+}
+.pictext3{
+    position: absolute;
+    bottom: 5rem;
+    right: 10px;
+    color: bisque;
+    max-width: 30%;
+    width:30%;
+}
+h1{
+    color:bisque ;
+    margin-top: 1rem;
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+}
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: -8px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
