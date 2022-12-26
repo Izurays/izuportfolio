@@ -3,7 +3,7 @@
         "dbConfig":{
             "host":"localhost",
             "port":"3000",
-            "dbName":"mongodb+srv://izurays:izurays@izuyelp.yz5yf.mongodb.net/?retryWrites=true&w=majority"
+            "dbName":"mongodb+srv://izu:izu@massappeal.7i5b1rr.mongodb.net/?retryWrites=true&w=majority"
         }
     }
 }
