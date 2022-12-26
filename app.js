@@ -7,7 +7,7 @@ const ejsMate = require("ejs-mate");
 const router = express.Router();
 //app.use( express.static(__dirname, 'public'))n
 
-const dbConfig = config.get('izurays.dbConfig.dbName');
+const dbConfig = "mongodb+srv://izu:izu@massappeal.7i5b1rr.mongodb.net/?retryWrites=true&w=majority";//config.get('izurays.dbConfig.dbName');
 
 app.use(express.static(path.join(__dirname, "public")));
 //add the router
